@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="appointment">
+        <div class="appointment__placeat">
+            <h2 class="appointment__placeat__title">Maxime placeat facere possimus omnis </h2>
+            <h1 class="appointment__placeat__number">5,700+</h1>
+            <h3 class="appointment__placeat__text">customers served</h3>
+        </div>
+        <div class="appointment__form">
+            <h2 class="appointment__form__title">Make an appointment</h2>
+            <form class="appoinrment__form__input input" action="#">
+                <input class="input__Name" type="text" required placeholder="Name">
+                <input class="input__Email" name="email" type="email" required placeholder="Email">
+                <input class="input__Phone" name="phone" type="tel" required placeholder="Phone Number">
+                <input class="input__Select" type="text" required placeholder="Select Service">
+                <textarea class="input__Tellus" type="text" required placeholder="Tell us about your puppers include his/her name"></textarea>
+                <button class="input__button" type="submit">Make an Appointment</button>
+            </form>
+
+        </div>
+    </section>
+    <section class="summary">
+        <h1 class="summary__title">Summary</h1>
+        <h2 class="summary__paragraph">Estimate Shipping and Tax</h2>
+            <div class="summary__paragraph__destination">Enter your destination to get a shipping estimate.</div> 
+            <div class="summary__paragraph__country">Country</div>
+            <form class="summary__paragraph__country-input country__input">
+                <select class="country__input__type country-input">
+                 <option class="country-input__Australia" value="Australia">Australia</option>
+                 <option class="country-input__Ukraine" value="Ukraine">Ukraine</option>
+                </select>
+            </form>
+            <div class="summary__paragraph__state">State/Province</div>
+            <input class="summary__paragraph__state-input" type="text">
+            <div class="summary__paragraph__zip">zip/postal Code</div>
+            <input class="summary__paragraph__zip-input" type="text">
+            <div class="summary__paragraph__rate">Standart rate</div>
+            <input checked required name="rate" value="rate"  type="radio">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00
+            <div class="summary__paragraph__rate">Pickup from store</div>
+            <input required name="rate" value="rate"  type="radio">1234 Street Adress City Address, 1234 $0.00
+            
+        <h2 class="summary__nextparagraph">Apply Discount Code</h2>
+            <div class="summary__nextparagraph__Discount">Enter discount code</div>
+            <input class="summary__nextparagraph__Discount-input" type="text" required placeholder="Enter discount code">
+        <button class="summary__button" type="submit">Apply Discount</button>
+
+    </section>
+    <section class="Registered">
+        <h1 class="Registered__title">Registered Customers</h1>
+        <h2 class="Registered__posttitle">If you have an account, sign in with your email address.</h2>
+        <div class="Registered__email">Email</div>
+        <input class="Registered__email-input" name="email" type="email" required placeholder="Email"> 
+        <div class="Registered__Password">Password</div>
+        <input class="Registered__Password-input" type="password" required placeholder="Your Password">
+
+        <button class="Registered__button">Sign In</button>
+        <button class="Registered__button__forgot">Forgot Your Password?</button>
+
+    </section>
+</body>
+</html>
